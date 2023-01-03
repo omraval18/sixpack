@@ -87,7 +87,7 @@ function bundle(graph) {
     return result;
 }
 
-const graph = createGraph("./example/entry.js");
+const graph = createGraph("./test/entry.js");
 const result = bundle(graph);
 
 console.log(result);
